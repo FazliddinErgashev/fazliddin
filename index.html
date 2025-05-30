@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    *{
+        list-style: none;
+    }
+</style>
+<body class=" bg-[#212529]">
+    <header class="w-[100%] h-[13917px] bg-[#212529] mx-auto">
+        <img src="poke.png" class="mx-auto">
+        <nav class="w-[1296px] h-[46px] flex gap-[10px] item-center mx-auto my-[30px] ">
+            <input type="text" class="w-[209px] h-[36px] rounded-[6px] text-[black]" placeholder="search your pokemon" id="serch">
+            <div class="w-[209px] h-[36px] rounded-[6px] text-[black] bg-[white]  content-center" id="ALL">ALL</div>
+            <details>
+                <summary class=""><div class="w-[209px] h-[36px] rounded-[6px] text-[black] bg-[white]  content-center">sort</div></summary>
+                    
+                <ul class=" w-[100px] h-[100px] bg-[#FFFFFF] rounded-[10px] text-center content-center text-[18px] relative">
+                    <li id="za"><a>Z-A</a></li>
+                    <li id="az"><a>A-Z</a></li> 
+                </ul>
+            </details>
+            <button class="w-[209px] h-[36px] rounded-[6px] bg-[#198754] text-[#FFFFFF] " id="btn">Seorch</button>
+        </nav>
+
+        <div class="flex flex-wrap gap-[10px] w-[1296px] mx-auto" id="row">
+            
+        </div>
+    </header>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="pokemon.js"></script>
+</body>
+</html>
+
+
+            
